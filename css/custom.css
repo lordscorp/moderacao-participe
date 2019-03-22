@@ -1,0 +1,16 @@
+div.logmenu {
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	right: 0;
+	margin: 20px;
+	z-index: 1;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+h1 {
+	margin-left: 20px;
+}
