@@ -2,6 +2,7 @@
 
 Necessário criar arquivo config.php:
 
+```php
 <?php
 define('DB_HOST', 'localhost');
 define('DB_USER', 'usuario');
@@ -15,3 +16,4 @@ if($link === false){
     die("ERRO: Não foi possível conectar. " . mysqli_connect_error());
 }
 ?>
+```
